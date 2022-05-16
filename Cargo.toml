@@ -23,7 +23,8 @@ name = "mdbook-epub"
 doc = false
 
 [dependencies]
-epub-builder = "0.5.0"
+epub-builder = {path = "../epub-builder"}
+#epub-builder = "0.5.0"
 thiserror = "1.0"
 pulldown-cmark = "0.9"
 semver = "1.0"
