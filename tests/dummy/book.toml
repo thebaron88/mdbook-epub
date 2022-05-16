@@ -7,3 +7,4 @@ lang = "en"
 
 [output.epub]
 curly-quotes = true
+optional = true # This allows the config to load, and for us to still programatically insert the renderer in the test
